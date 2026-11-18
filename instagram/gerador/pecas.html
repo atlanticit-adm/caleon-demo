@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<title>CALEON · peças Instagram</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#02123e; --navy2:#071a4a; --navy3:#0e2a66; --line:#1b2d5c;
+  --teal:#1ea3bc; --teal-d:#0e6f82; --cyan:#8fd9e8; --cyan-l:#e8f5f8;
+  --paper:#f6f8fc; --white:#fff; --ink:#02123e; --muted:#5a6378; --mute2:#c5d0e4; --rule:#e3e7ef;
+  --ok:#1f7a52; --ok-bg:#e3f4ec; --wa:#8a5a00; --wa-bg:#fff4db; --er:#b3261e; --er-bg:#fde9e7; --in:#0e6f82; --in-bg:#e8f5f8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;padding:40px;display:flex;flex-wrap:wrap;gap:40px}
+.fr{position:relative;overflow:hidden;width:1080px;height:1350px;color:var(--ink);background:var(--paper);flex:none}
+.fr.sq{height:1080px}.fr.st{height:1920px}
+.fr.navy{background:var(--navy);color:#fff}.fr.teal{background:var(--teal-d);color:#fff}.fr.cyan{background:var(--cyan-l)}
+.pad{position:absolute;inset:88px 88px 96px}
+h1,h2,h3,.wm{font-family:Archivo,sans-serif;font-weight:600;letter-spacing:-.02em}
+h1{font-size:112px;line-height:1.0}
+h2{font-size:84px;line-height:1.04}
+h3{font-size:44px;line-height:1.12}
+p.lead{font-size:38px;line-height:1.42;color:var(--muted);max-width:860px}
+.navy p.lead,.teal p.lead{color:var(--mute2)}
+.kick{font-size:26px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-d)}
+.navy .kick{color:var(--cyan)}.teal .kick{color:var(--cyan)}
+.wm{font-weight:800;letter-spacing:-.01em;line-height:1;white-space:nowrap}
+.wm b{font-weight:800;color:var(--teal)}
+.wm .c{color:var(--ink)}.navy .wm .c,.teal .wm .c,.wm.on-dark .c{color:#fff}
+.teal .wm b{color:var(--cyan)}
+.top{position:absolute;left:88px;right:88px;top:72px;display:flex;justify-content:space-between;align-items:center}
+.top .wm{font-size:40px}
+.top .tg{font-size:24px;color:var(--muted);font-weight:500}
+.navy .top .tg,.teal .top .tg{color:var(--mute2)}
+.foot{position:absolute;left:88px;right:88px;bottom:64px;display:flex;justify-content:space-between;align-items:center;font-size:24px;color:var(--muted);font-weight:500}
+.navy .foot,.teal .foot{color:var(--mute2)}
+.dots{display:flex;gap:10px}.dots i{width:12px;height:12px;border-radius:50%;background:currentColor;opacity:.3}.dots i.on{opacity:1;background:var(--teal)}
+.navy .dots i.on,.teal .dots i.on{background:var(--cyan)}
+.mid{position:absolute;left:88px;right:88px;top:50%;transform:translateY(-50%)}
+.bot{position:absolute;left:88px;right:88px;bottom:150px}
+.tag{display:inline-flex;align-items:center;height:56px;padding:0 22px;border-radius:12px;font-size:28px;font-weight:600}
+.ok{background:var(--ok-bg);color:var(--ok)}.wa{background:var(--wa-bg);color:var(--wa)}.er{background:var(--er-bg);color:var(--er)}.in{background:var(--in-bg);color:var(--in)}
+.card{background:#fff;border-radius:28px;box-shadow:0 30px 80px rgba(2,18,62,.25);color:var(--ink)}
+.ico{width:120px;height:120px;border-radius:30px;display:grid;place-items:center;background:var(--cyan-l);color:var(--teal-d)}
+.cyan .ico{background:#fff}
+.navy .ico,.teal .ico{background:var(--navy3);color:var(--cyan)}
+.ico svg{width:64px;height:64px}
+.num{font-family:Archivo,sans-serif;font-weight:700;font-size:260px;line-height:.85;letter-spacing:-.04em;color:var(--teal)}
+.navy .num{color:var(--cyan)}
+.note{font-size:22px;color:var(--muted)}.navy .note,.teal .note{color:#8fa0c4}
+.arrow{display:inline-flex;align-items:center;gap:16px;font-size:30px;font-weight:600;color:var(--teal-d)}
+.navy .arrow,.teal .arrow{color:var(--cyan)}
+.chk{display:flex;gap:28px;align-items:flex-start;padding:30px 0;border-top:2px solid var(--rule);font-size:36px;line-height:1.3}
+.chk:last-child{border-bottom:2px solid var(--rule)}
+.chk span.b{flex:none;width:52px;height:52px;border-radius:14px;background:var(--teal-d);color:#fff;display:grid;place-items:center;margin-top:-2px}
+.chk small{display:block;font-size:26px;color:var(--muted);margin-top:6px}
+.row{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-top:2px solid var(--rule);font-size:32px}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(143,217,232,.07) 2px,transparent 2px),linear-gradient(90deg,rgba(143,217,232,.07) 2px,transparent 2px);background-size:90px 90px}
+.wave{display:block}
+/* highlights */
+.hl{width:1080px;height:1080px;background:var(--navy);display:grid;place-items:center;flex:none;position:relative}
+.hl .ring{width:560px;height:560px;border-radius:50%;background:var(--navy3);display:grid;place-items:center;color:var(--cyan)}
+.hl .ring svg{width:280px;height:280px}
+</style>
+</head>
+<body>
+
+<!-- ============ ÍCONES (mesmos traços da landing) ============ -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="i-construtora" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-6h6v6"/></symbol>
+    <symbol id="i-sub" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></symbol>
+    <symbol id="i-trab" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></symbol>
+    <symbol id="i-homol" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.4 8-8 9-4.6-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-conf" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-horas" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-fatura" viewBox="0 0 24 24"><path d="M7 3h10v18l-3-2-2 2-2-2-3 2z"/><path d="M10 8h4M10 12h4"/></symbol>
+    <symbol id="i-prop" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+    <symbol id="i-recr" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c0-3.5 3-6 7-6s7 2.5 7 6"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M19 20c0-2.5-1.3-4.5-3-5.5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M10 8.5v5l4-2.5z"/><path d="M8 21h8"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  </defs>
+</svg>
+
+<div id="root"></div>
+
+<script>
+const S = (id, size=64, sw=1.8) => `<svg width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round"><use href="#${id}"/></svg>`;
+// Onda da marca (redesenhada a partir do logótipo)
+const WAVE = (w=360, color='var(--teal)') => `<svg class="wave" width="${w}" height="${w*0.16}" viewBox="0 0 300 48"><path d="M2 40 C 50 40, 70 6, 120 6 S 190 36, 240 30 S 290 14, 298 10 L 298 16 C 285 22, 270 38, 240 40 S 175 18, 120 16 S 60 46, 2 46 Z" fill="${color}"/></svg>`;
+const WM = (size, cls='') => `<div class="wm ${cls}" style="font-size:${size}px"><span class="c">CALE</span><b>ON</b></div>`;
+const TOP = (tg='Obra em regra') => `<div class="top">${WM(40)}<span class="tg">${tg}</span></div>`;
+const DOTS = (n,i) => `<div class="dots">${Array.from({length:n},(_,k)=>`<i class="${k===i?'on':''}"></i>`).join('')}</div>`;
+const FOOT = (l='@caleon.pt', r='') => `<div class="foot"><span>${l}</span>${r}</div>`;
+const SWIPE = `<span class="arrow">Deslize ${S('i-arrow',34,2.2)}</span>`;
+
+const frames = [];
+const add = (id, cls, html) => frames.push(`<div class="fr ${cls}" id="${id}">${html}</div>`);
+
+/* ---------- AVATAR ---------- */
+frames.push(`<div class="fr sq navy" id="perfil-avatar" style="display:grid;place-items:center">
+  <div style="display:flex;flex-direction:column;align-items:center;gap:26px;margin-top:20px">
+    ${WM(196,'on-dark')}
+    <div style="margin-left:-60px">${WAVE(520)}</div>
+  </div></div>`);
+
+/* ---------- 01 LANÇAMENTO ---------- */
+add('post-01','navy',`<div class="grid-bg"></div>
+  <div class="top"><span class="tg">Procurement e homologação para construção</span><span class="tg">PT</span></div>
+  <div class="mid">${WM(210,'on-dark')}<div style="margin:28px 0 0 -10px">${WAVE(640)}</div>
+    <h2 style="margin-top:90px;font-size:92px">Obra em regra.</h2>
+    <p class="lead" style="margin-top:28px">Construtoras, subempreiteiros e trabalhadores num só lugar.</p></div>
+  ${FOOT('@caleon.pt','<span>Link na bio</span>')}`);
+
+/* ---------- 02 MANIFESTO ---------- */
+add('post-02','',`${TOP()}
+  <div class="mid"><span class="kick">O que defendemos</span>
+  <h1 style="margin-top:36px">Quem trabalha na obra está em regra.</h1>
+  <h1 style="margin-top:24px;color:var(--teal-d)">E toda a gente vê isso.</h1></div>
+  ${FOOT()}`);
+
+/* ---------- 03 CARROSSEL · COMO FUNCIONA ---------- */
+const passos = [
+ ['01','Registe','A construtora, o subempreiteiro e o trabalhador criam a sua conta em poucos minutos.','i-trab'],
+ ['02','Homologue','Documentos enviados uma vez, validados e com alertas de validade.','i-homol'],
+ ['03','Aloque','Equipas ligadas às obras certas, com o estado de cada pessoa à vista.','i-construtora'],
+ ['04','Confira','Horas, propostas e faturas lado a lado, antes de pagar.','i-fatura'],
+];
+add('post-03-1','teal',`${TOP('Como funciona')}
+  <div class="mid"><span class="kick">Como funciona</span><h1 style="margin-top:36px">Quatro passos, sem complicar.</h1>
+  <p class="lead" style="margin-top:40px">Do registo à fatura conferida.</p></div>
+  ${FOOT(SWIPE, DOTS(5,0))}`);
+passos.forEach(([n,t,d,ic],i)=> add(`post-03-${i+2}`, i%2?'navy':'', `${TOP('Como funciona')}
+  <div class="mid"><div class="num">${n}</div><h2 style="margin-top:56px">${t}</h2>
+  <p class="lead" style="margin-top:30px">${d}</p></div>
+  <div style="position:absolute;right:88px;top:330px" class="ico">${S(ic)}</div>
+  ${FOOT('@caleon.pt', DOTS(5,i+1))}`));
+
+/* ---------- 04-06 PERFIS ---------- */
+const perfis = [
+ ['04','Construtora','i-construtora','Veja quem está regularizado em cada obra.',['Conformidade por obra, hoje','Propostas pedidas e comparadas','Faturas conferidas antes de pagar'],''],
+ ['05','Subempreiteiro','i-sub','Envie os documentos uma vez.',['Homologado para todas as construtoras','Equipas e horas no mesmo sítio','Faturação sem reescrever nada'],'cyan'],
+ ['06','Trabalhador','i-trab','O seu perfil, no telemóvel.',['Documentos sempre em dia','Alertas antes de caducarem','Saiba quanto tem a receber'],''],
+];
+perfis.forEach(([n,t,ic,h,l,c])=> add(`post-${n}`, c, `${TOP('Para quem')}
+  <div class="pad" style="top:220px"><div class="ico">${S(ic)}</div>
+  <span class="kick" style="display:block;margin-top:56px">Para o ${t.toLowerCase()}</span>
+  <h2 style="margin-top:22px">${h}</h2>
+  <div style="margin-top:64px">${l.map(x=>`<div class="chk"><span class="b">${S('i-check',30,2.6)}</span><div>${x}</div></div>`).join('')}</div></div>
+  ${FOOT()}`));
+
+/* ---------- 07 PAINEL (dados fictícios) ---------- */
+add('post-07','navy',`<div class="grid-bg"></div>${TOP('Conformidade por obra')}
+  <div class="pad" style="top:200px"><span class="kick">Quem pode estar em obra hoje?</span>
+  <h2 style="margin-top:22px;font-size:72px">A resposta, numa só vista.</h2></div>
+  <div class="card" style="position:absolute;left:88px;right:88px;top:560px;padding:52px 56px">
+    <div style="font-size:26px;color:var(--muted);font-weight:500">Torre da Foz · cofragem</div>
+    <div style="font-family:Archivo;font-weight:600;font-size:56px;margin:8px 0 28px">14 trabalhadores</div>
+    <div class="row"><span>Regularizados</span><span class="tag ok">8</span></div>
+    <div class="row"><span>A expirar</span><span class="tag wa">2</span></div>
+    <div class="row"><span>Irregulares</span><span class="tag er">3</span></div>
+    <div class="row"><span>Em análise</span><span class="tag in">1</span></div>
+  </div>
+  ${FOOT('Exemplo com dados fictícios','<span>@caleon.pt</span>')}`);
+
+/* ---------- 08 PONTE ---------- */
+function ponte(){
+  // arco parabólico: y = top + a*(x-540)^2
+  const top=470, base=880, half=430, a=(base-top)/(half*half);
+  let arc=`M ${540-half} ${base} `; for(let x=540-half;x<=540+half;x+=10) arc+=`L ${x} ${top+a*(x-540)**2} `;
+  let inner=`M ${540-half+40} ${base} `; for(let x=540-half+40;x<=540+half-40;x+=10) inner+=`L ${x} ${top+40+((base-top-40)/((half-40)**2))*(x-540)**2} `;
+  let h=''; for(let x=540-half+30;x<=540+half-30;x+=40){const y=top+a*(x-540)**2; if(y>top+2) h+=`<line x1="${x}" y1="${top-4}" x2="${x}" y2="${y}"/>`;}
+  let lat=''; for(let x=540-half+20;x<540+half-20;x+=40){const y1=top+a*(x-540)**2, y2=top+40+((base-top-40)/((half-40)**2))*((x+40)-540)**2; if(x+40<=540+half-40) lat+=`<line x1="${x}" y1="${y1}" x2="${x+40}" y2="${Math.min(y2,base)}"/>`;}
+  return `<svg width="1080" height="1100" viewBox="0 0 1080 1100" style="position:absolute;left:0;top:150px" fill="none" stroke-linecap="round">
+    <g stroke="#8fd9e8" stroke-opacity=".35" stroke-width="3">${h}${lat}</g>
+    <path d="${arc}" stroke="#1ea3bc" stroke-width="10"/><path d="${inner}" stroke="#1ea3bc" stroke-width="6" stroke-opacity=".7"/>
+    <line x1="40" y1="${top-6}" x2="1040" y2="${top-6}" stroke="#fff" stroke-width="10"/>
+    <line x1="${540-half-30}" y1="${base-120}" x2="${540+half+30}" y2="${base-120}" stroke="#fff" stroke-opacity=".8" stroke-width="7"/>
+    <path d="M0 ${base+20} C 200 ${base+5}, 400 ${base+35}, 600 ${base+18} S 900 ${base+5}, 1080 ${base+22}" stroke="#1ea3bc" stroke-opacity=".5" stroke-width="4"/>
+  </svg>`;
+}
+add('post-08','navy',`${TOP('Do Porto a Gaia')}${ponte()}
+  <div class="pad" style="top:190px"><span class="kick">Do Porto a Gaia</span>
+  <h2 style="margin-top:22px;font-size:66px;max-width:900px">Uma ponte só aguenta quando cada peça está no sítio.</h2></div>
+  <div class="bot" style="bottom:120px"><p class="lead" style="font-size:32px">Numa obra é igual. Documentos, equipas e pagamentos alinhados, e visíveis para quem decide.</p></div>
+  ${FOOT('Ponte Luís I · ilustração','<span>@caleon.pt</span>')}`);
+
+/* ---------- 09 CARROSSEL · PLATAFORMA ---------- */
+const feats = [
+ ['i-homol','Homologação de subempreiteiros','Receba os documentos uma vez. Valide, aprove e acompanhe as validades sem folhas soltas.'],
+ ['i-conf','Conformidade por obra','Saiba quem pode estar em obra hoje e quais documentos estão a caducar, antes de virar problema.'],
+ ['i-horas','Horas e jornadas','Registos de presença por obra, prontos a conferir, sem reescrever nada.'],
+ ['i-fatura','Faturas conferidas','Cruze horas e propostas com a fatura antes de pagar.'],
+ ['i-prop','Propostas','Peça, compare e adjudique ao subempreiteiro certo, com o histórico à mão.'],
+ ['i-recr','Recrutamento','Abra vagas, receba candidatos e convide para a obra.'],
+];
+add('post-09-1','navy',`<div class="grid-bg"></div>${TOP('Plataforma')}
+  <div class="mid"><span class="kick">Plataforma</span><h1 style="margin-top:36px">Menos papel.<br>Mais obra.</h1>
+  <p class="lead" style="margin-top:40px">Tudo o que anda em e-mails, folhas de cálculo e grupos de conversa, num só sítio.</p></div>
+  ${FOOT(SWIPE, DOTS(7,0))}`);
+feats.forEach(([ic,t,d],i)=> add(`post-09-${i+2}`, 'navy', `${TOP('Plataforma')}
+  <div class="mid"><div class="ico">${S(ic)}</div><h2 style="margin-top:64px">${t}</h2>
+  <p class="lead" style="margin-top:30px">${d}</p></div>
+  <div style="position:absolute;right:88px;top:200px;font-family:Archivo;font-weight:600;font-size:34px;color:#3a4d7e">0${i+1}/06</div>
+  ${FOOT('@caleon.pt', DOTS(7,i+1))}`));
+
+/* ---------- 10 CHECKLIST ---------- */
+const docs = [
+ ['Alvará ou certificado de empreiteiro','Classe e categorias adequadas à obra'],
+ ['Certidão de não dívida à AT','Confirme a data de validade'],
+ ['Certidão de situação contributiva','Segurança Social regularizada'],
+ ['Seguro de acidentes de trabalho','Com a lista de trabalhadores atualizada'],
+ ['Seguro de responsabilidade civil','Capital e âmbito da apólice'],
+];
+add('post-10','',`${TOP('Guarde este post')}
+  <div class="pad" style="top:200px"><span class="kick">Checklist do subempreiteiro</span>
+  <h2 style="margin-top:22px;font-size:68px">5 documentos para ter em dia antes de entrar em obra.</h2>
+  <div style="margin-top:50px">${docs.map(([a,b],k)=>`<div class="chk" style="padding:24px 0;font-size:33px"><span class="b" style="font-family:Archivo;font-weight:700;font-size:28px">${k+1}</span><div>${a}<small>${b}</small></div></div>`).join('')}</div></div>
+  ${FOOT('Lista indicativa. Confirme o que a sua construtora exige.','<span>@caleon.pt</span>')}`);
+
+/* ---------- 11 FATURA CONFERIDA ---------- */
+add('post-11','cyan',`${TOP('Faturas conferidas')}
+  <div class="pad" style="top:200px"><span class="kick">Antes de pagar</span>
+  <h2 style="margin-top:22px;font-size:72px">Horas, proposta e fatura lado a lado.</h2></div>
+  <div class="card" style="position:absolute;left:88px;right:88px;top:600px;padding:48px 56px">
+    <div style="display:flex;justify-content:space-between;font-size:26px;color:var(--muted);font-weight:500"><span>Ribeiro &amp; Filhos · outubro</span><span>Exemplo fictício</span></div>
+    <div class="row" style="margin-top:22px"><span>Horas registadas em obra</span><b>1 240 h</b></div>
+    <div class="row"><span>Horas na fatura</span><b>1 288 h</b></div>
+    <div class="row"><span>Preço/hora da proposta</span><b>igual</b></div>
+    <div class="row" style="border-bottom:2px solid var(--rule)"><span>Diferença a confirmar</span><span class="tag wa">48 h</span></div>
+  </div>
+  ${FOOT('A diferença aparece antes do pagamento, não depois.','<span>@caleon.pt</span>')}`);
+
+/* ---------- 12 CTA DEMO ---------- */
+add('post-12','teal',`<div class="grid-bg"></div>${TOP('Demonstração')}
+  <div class="mid"><span class="kick">Experimente</span><h1 style="margin-top:36px">Veja a obra em regra.</h1>
+  <p class="lead" style="margin-top:40px">Entre na demonstração e escolha o perfil: construtora, subempreiteiro ou trabalhador.</p>
+  <div style="margin-top:64px;display:inline-flex;align-items:center;gap:18px;background:#fff;color:var(--navy);padding:30px 44px;border-radius:20px;font-size:36px;font-weight:600">Link na bio ${S('i-arrow',40,2.4)}</div></div>
+  ${FOOT('Dados fictícios. Não precisa de instalar nada.','<span>@caleon.pt</span>')}`);
+
+/* ---------- STORIES ---------- */
+frames.push(`<div class="fr st navy" id="story-01"><div class="grid-bg"></div>
+  <div class="mid" style="text-align:left">${WM(170,'on-dark')}<div style="margin:22px 0 0 -8px">${WAVE(520)}</div>
+  <h2 style="margin-top:120px">Chegámos ao Instagram.</h2>
+  <p class="lead" style="margin-top:30px">Procurement e homologação para construção em Portugal. Siga para ver a obra em regra.</p></div>
+  <div class="foot" style="bottom:200px">@caleon.pt</div></div>`);
+frames.push(`<div class="fr st" id="story-02">
+  <div class="top" style="top:200px">${WM(44)}<span class="tg">Pergunta rápida</span></div>
+  <div class="pad" style="top:420px"><span class="kick">Para construtoras</span>
+  <h2 style="margin-top:26px">Quantas folhas de cálculo usa para controlar uma obra?</h2>
+  <div style="margin-top:80px;height:420px;border:4px dashed #c5d0e4;border-radius:36px;display:grid;place-items:center;font-size:30px;color:var(--muted);text-align:center;padding:40px">Colocar aqui o autocolante <b>&nbsp;Sondagem&nbsp;</b><br>(1–2 · 3–5 · Perdi a conta)</div></div></div>`);
+frames.push(`<div class="fr st teal" id="story-03"><div class="grid-bg"></div>
+  <div class="mid"><span class="kick">Demonstração</span><h1 style="margin-top:30px">Veja a obra em regra.</h1>
+  <p class="lead" style="margin-top:36px">Construtora, subempreiteiro ou trabalhador. Escolha o perfil e explore com dados fictícios.</p>
+  <div style="margin-top:110px;height:200px;border:4px dashed rgba(255,255,255,.5);border-radius:36px;display:grid;place-items:center;font-size:30px;color:#fff">Colocar aqui o autocolante <b>&nbsp;Link</b></div></div></div>`);
+
+/* ---------- CAPAS DE DESTAQUES ---------- */
+[['sobre','i-info'],['construtora','i-construtora'],['subempreiteiro','i-sub'],['trabalhador','i-trab'],['demo','i-play']]
+ .forEach(([n,ic])=> frames.push(`<div class="hl" id="destaque-${n}"><div class="ring">${S(ic,280,1.6)}</div></div>`));
+
+document.getElementById('root').outerHTML = frames.join('\n');
+</script>
+</body>
+</html>
